@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: VetClinic
+    username: VetClinic
+    url: jdbc:mysql://localhost:3306/veterinarian_clinic
+
+
+logging:
+  level:
+    root: warn
+    '[com.finalproject]' : debug    
+    
